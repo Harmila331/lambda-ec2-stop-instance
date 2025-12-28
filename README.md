@@ -77,4 +77,10 @@ It helps understand basic automation using AWS services for cost and resource ma
 
 ![Create Lambda Function](screenshots/07-create-lambda-function.png)
 
+## Step 9: Identify Running EC2 Instance
+
+- Navigate to **EC2 → Instances** in the AWS Management Console.
+- Ensure the target EC2 instance is in the **Running** state and copy the **Instance ID**.
+
+![EC2 Instance Running](screenshots/08-ec2-instance-running.png)
 
