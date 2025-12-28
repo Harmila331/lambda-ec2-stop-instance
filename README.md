@@ -91,4 +91,12 @@ It helps understand basic automation using AWS services for cost and resource ma
 
 ![Lambda Code with EC2 Instance ID](screenshots/10-lambda-code-with-instance-id.png)
 
+## Step 11: Test the Lambda Function
+
+- Click **Deploy** to save the Lambda function changes.
+- Click **Test** and verify that the execution status is **Succeeded**.
+
+![Lambda Test Success](screenshots/11-lambda-test-success.png)
+
+
 
