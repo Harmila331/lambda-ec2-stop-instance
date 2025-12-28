@@ -56,5 +56,12 @@ It helps understand basic automation using AWS services for cost and resource ma
 
 ![Attach IAM Policy to Role](screenshots/04-attach-policy-to-role.png)
 
+## Step 6: Review and Create IAM Role
+
+- Provide a role name (for example, **ec2role**) and review the trusted entity and attached permissions.
+- Confirm the configuration and click **Create role** to complete the IAM role setup.
+
+![Review and Create IAM Role](screenshots/05-review-and-create-iam-role.png)
+
 
 
