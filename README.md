@@ -98,5 +98,13 @@ It helps understand basic automation using AWS services for cost and resource ma
 
 ![Lambda Test Success](screenshots/11-lambda-test-success.png)
 
+## Step 12: Verify EC2 Instance Stopped
+
+- Navigate to **EC2 → Instances** in the AWS Management Console.
+- Confirm that the EC2 instance state has changed to **Stopped** after running the Lambda function.
+
+![EC2 Instance Stopped](screenshots/12-ec2-instance-stopped.png)
+
+
 
 
