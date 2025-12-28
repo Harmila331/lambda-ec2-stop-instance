@@ -105,6 +105,12 @@ It helps understand basic automation using AWS services for cost and resource ma
 
 ![EC2 Instance Stopped](screenshots/12-ec2-instance-stopped.png)
 
+## Conclusion
+
+In this lab, we successfully created an AWS Lambda function with a custom IAM role and policy to stop an EC2 instance.  
+By testing the Lambda function, we verified that the EC2 instance automatically transitioned from **Running** to **Stopped**, demonstrating serverless automation using AWS services.
+
+
 
 
 
