@@ -33,4 +33,5 @@ It helps understand basic automation using AWS services for cost and resource ma
 - Navigate to IAM → Roles → Create role and select **AWS service** as the trusted entity.
 - Choose **Lambda** as the use case so the Lambda function can assume this role.
 
-📸 Screenshot: screenshots/01-iam-select-trusted-entity.png
+![Select Trusted Entity](screenshots/01-iam-select-trusted-entity.png)
+
