@@ -49,5 +49,12 @@ It helps understand basic automation using AWS services for cost and resource ma
 
 ![Review and Create IAM Policy](screenshots/03-review-and-create-iam-policy.png)
 
+## Step 5: Attach IAM Policy to Role
+
+- Navigate to **IAM → Roles**, create a role for **Lambda**, and proceed to the **Add permissions** step.
+- Search for the custom policy (**ec2lambdapolicy**) and attach it to the role.
+
+![Attach IAM Policy to Role](screenshots/04-attach-policy-to-role.png)
+
 
 
