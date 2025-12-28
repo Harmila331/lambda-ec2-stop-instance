@@ -63,5 +63,11 @@ It helps understand basic automation using AWS services for cost and resource ma
 
 ![Review and Create IAM Role](screenshots/05-review-and-create-iam-role.png)
 
+## Step 7: Open AWS Lambda Console
+
+- Navigate to the **AWS Lambda** service from the AWS Management Console.
+- Click on **Create a function** to begin creating a new Lambda function.
+
+![Open AWS Lambda Console](screenshots/06-open-lambda-console.png)
 
 
