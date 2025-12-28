@@ -84,3 +84,11 @@ It helps understand basic automation using AWS services for cost and resource ma
 
 ![EC2 Instance Running](screenshots/08-ec2-instance-running.png)
 
+## Step 10: Update Lambda Function Code
+
+- Open the created Lambda function and go to the **Code** tab.
+- Paste the Python code to stop the EC2 instance and replace the **Instance ID** with the target EC2 instance ID.
+
+![Lambda Code with EC2 Instance ID](screenshots/10-lambda-code-with-instance-id.png)
+
+
