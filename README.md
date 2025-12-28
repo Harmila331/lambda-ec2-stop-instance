@@ -70,4 +70,11 @@ It helps understand basic automation using AWS services for cost and resource ma
 
 ![Open AWS Lambda Console](screenshots/06-open-lambda-console.png)
 
+## Step 8: Create Lambda Function
+
+- In the AWS Lambda console, choose **Author from scratch** and provide a function name (for example, **lambdaEC2kill**).
+- Select **Python** as the runtime and choose **Use an existing role**, then select the IAM role (**ec2role**).
+
+![Create Lambda Function](screenshots/07-create-lambda-function.png)
+
 
