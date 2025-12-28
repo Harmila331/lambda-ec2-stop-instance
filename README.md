@@ -107,6 +107,38 @@ It helps understand basic automation using AWS services for cost and resource ma
 
 ![EC2 Instance Stopped](screenshots/12-ec2-instance-stopped.png)
 
+
+## IAM Policy Used for Lambda
+
+A custom IAM policy was created to allow the Lambda function to:
+- Write logs to Amazon CloudWatch
+- Stop EC2 instances
+
+### IAM Policy JSON
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "logs:CreateLogGroup",
+        "logs:CreateLogStream",
+        "logs:PutLogEvents"
+      ],
+      "Resource": "arn:aws:logs:*:*:*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ec2:Stop*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+
 ## Conclusion
 
 In this lab, we successfully created an AWS Lambda function with a custom IAM role and policy to stop an EC2 instance.  
