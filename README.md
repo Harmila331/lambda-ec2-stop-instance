@@ -42,4 +42,12 @@ It helps understand basic automation using AWS services for cost and resource ma
 
 ![Create IAM Policy JSON](screenshots/02-create-iam-policy-json.png)
 
+## Step 4: Review and Create IAM Policy
+
+- Review the policy permissions and provide a policy name (for example, **ec2lambdapolicy**).
+- Confirm the permissions and click **Create policy** to save it.
+
+![Review and Create IAM Policy](screenshots/03-review-and-create-iam-policy.png)
+
+
 
