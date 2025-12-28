@@ -33,3 +33,13 @@ It helps understand basic automation using AWS services for cost and resource ma
 - Choose **Lambda** as the use case so the Lambda function can assume this role.
 
 ![Select Trusted Entity](screenshots/01-iam-select-trusted-entity.png)
+
+
+## Step 3: Create Custom IAM Policy
+
+- Navigate to **IAM → Policies → Create policy** and switch to the **JSON** tab.
+- Paste a custom policy that allows CloudWatch logging and EC2 stop actions.
+
+![Create IAM Policy JSON](screenshots/02-create-iam-policy-json.png)
+
+
