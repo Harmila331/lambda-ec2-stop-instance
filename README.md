@@ -145,14 +145,6 @@ A custom IAM policy was created to allow the Lambda function to:
 In this lab, we successfully created an AWS Lambda function with a custom IAM role and policy to stop an EC2 instance.  
 By testing the Lambda function, we verified that the EC2 instance automatically transitioned from **Running** to **Stopped**, demonstrating serverless automation using AWS services.
 
-## Credits
-
-We gratefully acknowledge the contributions of:
-
- 
-- **Harmila** – https://github.com/Harmila331
-- **Kushal** – https://github.com/Kushal-dev-22   
-- **Dhanaswi** – https://github.com/dhanaswi
 
 
 
